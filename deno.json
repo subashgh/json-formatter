@@ -1,10 +1,74 @@
 {
-  "tasks": {
-    "build": "deno run --allow-all --unstable './tasks/build.ts'",
-    "dev": "deno run --allow-all --unstable './tasks/dev.ts'"
-  },
-  "imports": {
-    "std/": "https://deno.land/std@0.174.0/",
-    "wire": "https://deno.land/x/wire@v2.0.0-alpha.2/mod.ts"
-  }
+    "callingSystem" : "DGW",
+         "originatingSystem" : "TRACS",
+         "statusBackEndpoint" : "",
+         "transactionId" : "99333478822",
+         "altCorrelationId" : "923339834855",
+         "numberEngineers" : 1,
+         "statusBackServiceType" : "REST",
+         "priority" : 2,
+         "wireCenter" : "WNPKFLXA",
+         "serviceType" : "Repair",
+         "jobLocation" : {
+                   "street" : "409 WADE ST",
+                   "city" : "FUQUAY-VARINA",
+                   "state" : "NC",
+                   "zipCode" : "",
+                   "country" : "US",
+                   "geoLocation" : {
+                             "longitude" : -78.791304,
+                             "latitude" : 35.580062   
+        } 
+    },
+         "customerInfo" : {
+                   "customerName" : "ROSE WILLIS",
+                   "contactName" : "Rose Willis",
+                   "phoneNumber" : "9195798751",
+                   "maintenancePlan" : "" 
+    },
+         "appointment" : {
+                   "earlyStart" : "2023-04-08T03:30:00",
+                   "apptStart" : "2023-06-08T03:30:00",
+                   "apptFinish" : "2023-06-09T03:30:00",
+                   "dueDate" : "2023-09-09T09:59:00",
+                   "futureAppt" : false 
+    },
+         "taskType" : "ALRADXXXXC",
+         "technology" : "BOND2+",
+         "productType" : "HSI",
+         "downstreamSpeed" : "0",
+         "customerType" : "Residential",
+         "onHold" : false,
+         "isNicOne" : "false",
+         "isInside" : false,
+         "durationSec" : 0,
+         "taskCodes" : [
+    ],
+         "hostTrackingNum" : "TRNC741311355",
+         "altTrackingNum" : "63155623355",
+         "manualScheduleFlag" : true,
+         "order" : {
+                   "orderType" : "M",
+                   "remarks" : [
+            {
+                                     "remarkType" : "ACCESS",
+                                     "remarkText" : "open access"   
+            },
+            {
+                                     "remarkType" : "ANSWER",
+                                     "remarkText" : "Connectivity:Intermittent:Dispatch:Customer:Bonded 1-01612/01623:internet light off unplugged all cords and plugged it back in low sync rate s line 1 and 2"   
+            }
+        ] 
+    },
+         "repair" : {
+                   "troubleType" : "OOS",
+                   "urls" : [
+        ] 
+    },
+         "openDate" : "2020-03-21T14:44:00",
+         "csProductType" : "Biz&Res OOS(RP)",
+         "nextDayCancel" : "N",
+         "clickTaskTypeDescription" : "HSI - No Signal/No Sync Res Repair",
+         "autoCancel" : "Y",
+         "tncktId" : "4076560559"
 }
